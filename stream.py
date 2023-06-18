@@ -27,7 +27,7 @@ def main():
     st.title("Compressive Strength Web App")
     
     pic = Image.open("con.jpg")
-    st.sidebar.image(pic, caption="Just an Image", width= 400,channels="RGB")
+    st.sidebar.image(pic, caption="Just an Image", width= 350,channels="RGB")
     # Giving a title
     
     st.write("""
