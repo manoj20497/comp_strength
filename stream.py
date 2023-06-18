@@ -53,7 +53,7 @@ def main():
     st.success(result)
 
     st.markdown("<h4 style = 'text_align:center; color:green;'><i>Quality concrete is our aim<i></h4>", unsafe_allow_html=True)
-    st.markdown("<marquee behavior="scroll" direction="left">Thank you for visiting us!</marquee>", unsafe_allow_html=True)
-    
+    st.markdown("<h6><marquee>Thank you for visiting us!</marquee></h6>", unsafe_allow_html=True)
+    # behavior=scroll direction='left'
 if __name__ == "__main__":
     main()
