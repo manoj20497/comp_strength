@@ -25,9 +25,9 @@ def strength_prediction(input_data):
 
 def main():
     st.markdown("<h1 style='text-align: center; color: red;'>Compressive Strength Web App</h1>", unsafe_allow_html=True)
-    st.markdown("<h1 style='text-align: center; color: grey;'>Calculate the Compressive Strength by Giving mix design as an input</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: grey;'>Calculate the Compressive Strength by Giving mix design as an input</h2>", unsafe_allow_html=True)
     pic = Image.open("con.jpg")
-    st.sidebar.image(pic, caption="Just an Image", width= 300,channels="RGB")
+    st.sidebar.image(pic, caption="Just an Image of Concrete", width= 300,channels="RGB")
     # Giving a title
     
     # st.write("""
