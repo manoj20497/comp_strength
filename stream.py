@@ -24,7 +24,8 @@ def strength_prediction(input_data):
 
 
 def main():
-    st.title("Compressive Strength Web App")
+    st.markdown("<h1 style='text-align: center; color: grey;'>Compressive Strength Web App</h1>", unsafe_allow_html=True)
+    # st.title("Compressive Strength Web App")
     
     pic = Image.open("con.jpg")
     st.sidebar.image(pic, caption="Just an Image", width= 300,channels="RGB")
