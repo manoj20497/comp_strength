@@ -51,6 +51,8 @@ def main():
         result = strength_prediction([cement,blastFurnace,flyAsh,Water,Plasticizer,CourseAgg,FineAgg,age])
      
     st.success(result)
+
+    st.markdown("<h4 style = 'text_align:center; color:green;'><i>Quality concrete is our aim<i></h4>", unsafe_allow_html=True)
     
     
 if __name__ == "__main__":
