@@ -27,7 +27,7 @@ def main():
     pic1 = Image.open("logo.jpeg")
     st.image(pic1, width = 200, channels="RGB")
     st.markdown("<h1 style='text-align: center; color: red;'>Compressive Strength Web App</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: grey;'>Calculate the Compressive Strength by Giving mix design as an input</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: grey;'><i>Calculate the Compressive Strength by Giving mix design as an input<i></h2>", unsafe_allow_html=True)
     pic = Image.open("con.jpg")
     st.sidebar.image(pic, caption="Just an Image of Concrete", width= 300,channels="RGB")
     
