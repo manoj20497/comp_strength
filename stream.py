@@ -52,7 +52,7 @@ def main():
      
     st.success(result)
 
-    st.markdown("<h4 style = 'text_align:center; color:green;'><i>Quality concrete is our aim<i></h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style = 'text_align:center; color:green;'><i>Quality concrete is our aim<br>Thank You<i></h4>", unsafe_allow_html=True)
     
     
 if __name__ == "__main__":
