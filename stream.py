@@ -28,12 +28,9 @@ def main():
     st.markdown("<h2 style='text-align: center; color: grey;'>Calculate the Compressive Strength by Giving mix design as an input</h2>", unsafe_allow_html=True)
     pic = Image.open("con.jpg")
     st.sidebar.image(pic, caption="Just an Image of Concrete", width= 300,channels="RGB")
-    # Giving a title
-    
-    # st.write("""
-    # ## Calculate the Compressive Strength
-    # ### by Giving mix design as an input
-    # """)
+
+    pic1 = Image.open("logo.jpeg")
+    st.image(pic1, width = 300, channels="RGB")
     
     # Getting the input data from the user
     age = st.sidebar.selectbox("Testing period (in days)", ("3","7", "14", "28"))
@@ -45,14 +42,7 @@ def main():
     Plasticizer = st.text_input("Plasticizer Content")
     CourseAgg = st.text_input("CourseAgg Content")
     FineAgg = st.text_input("FineAgg Content")
-    # if age == "3":
-    #     Age = 3
-    # elif age == "7":
-    #     Age = 3
-    # elif age == "14":
-    #     Age = 14
-    # else: 
-    #     Age = 28
+
     
     # Code for prediction
     result = ""
