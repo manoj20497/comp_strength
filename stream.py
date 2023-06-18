@@ -25,15 +25,15 @@ def strength_prediction(input_data):
 
 def main():
     st.markdown("<h1 style='text-align: center; color: red;'>Compressive Strength Web App</h1>", unsafe_allow_html=True)
-    st.markdown("<h1 style='text-align: center; color: grey;'>Calculate the Compressive Strength by Giving mix design as an input</h1>")
+    st.markdown("<h1 style='text-align: center; color: grey;'>Calculate the Compressive Strength by Giving mix design as an input</h1>", unsafe_allow_html=True)
     pic = Image.open("con.jpg")
     st.sidebar.image(pic, caption="Just an Image", width= 300,channels="RGB")
     # Giving a title
     
-    st.write("""
-    ## Calculate the Compressive Strength
-    ### by Giving mix design as an input
-    """)
+    # st.write("""
+    # ## Calculate the Compressive Strength
+    # ### by Giving mix design as an input
+    # """)
     
     # Getting the input data from the user
     age = st.sidebar.selectbox("Testing period (in days)", ("3","7", "14", "28"))
